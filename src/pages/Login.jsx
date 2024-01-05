@@ -10,7 +10,7 @@ const Login = () => {
 const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://backendecom.vercel.app/auth/login', { email, password });
+      const response = await axios.post('https://backendecom.vercel.app/auth/login', { email, password });
       console.log(response.data);
       
       // Handle successful login, set authentication state if needed

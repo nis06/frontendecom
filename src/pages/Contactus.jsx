@@ -19,7 +19,7 @@ const ContactUs = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://backendecom.vercel.app/contact/submit', {
+      const response = await fetch('https://backendecom.vercel.app/contact/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
